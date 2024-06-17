@@ -36,15 +36,15 @@ export default function About() {
             <span className="text-white ml-2 text-xl font-bold">Cloud-Connect</span>
           </div>
           <div>
-            <a href="/" className="text-white px-4 py-2 rounded-xl hover:underline hover:bg-slate-500 hover:text-green-500">
+            <Link href="/" className="text-white px-4 py-2 rounded-xl hover:underline hover:bg-slate-500 hover:text-green-500">
               Home
-            </a>
+            </Link>
             <a href="/about" className="text-white px-4 py-2 rounded-xl hover:underline hover:bg-slate-500  hover:text-yellow-500">
               About
             </a>
-            <a href="#" className="text-white px-4 py-2 rounded-xl hover:underline hover:bg-slate-500  hover:text-black">
+            <Link href="#" className="text-white px-4 py-2 rounded-xl hover:underline hover:bg-slate-500  hover:text-black">
               Contact
-            </a>
+            </Link>
           </div>
         </div>
       </nav>
