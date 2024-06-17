@@ -3,7 +3,7 @@ import * as THREE from "three";
 import CLOUDS from "vanta/dist/vanta.clouds.min";
 import Image from "next/image";
 import logo from "../public/logo.png";
-
+import Link from "next/link"
 export default function About() {
   const [vantaEffect, setVantaEffect] = useState(0);
   const vantaRef = useRef(null);

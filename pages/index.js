@@ -6,7 +6,7 @@ import CLOUDS from "vanta/dist/vanta.clouds.min";
 import Image from "next/image";
 import logo from "../public/logo.png";
 import { random } from "lodash";
-
+import Link from "next/link"
 export default function Home() {
   const router = useRouter();
   const [roomId, setRoomId] = useState("");
